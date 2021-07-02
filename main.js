@@ -19,7 +19,6 @@ addRef.addEventListener("click", () => {
    deleteBtnRef.forEach(element => { 
     element.addEventListener("click", (e) => {
         e.stopPropagation();
-        console.log(e.target.parentElement)
         e.target.parentElement.remove()
     })}) 
 })
