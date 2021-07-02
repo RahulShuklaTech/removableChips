@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form{
+    background-color: azure;
+    padding: 1rem;
+}
+
+.input-text{
+    border: 2px solid purple;
+}
+
+button{
+    background-color: aquamarine;
+}
+
+.chips{
+    display: flex;
+}
+
+.chip{
+    display: flex;
+    gap: 2px;
+    border-radius: 15%;
+    background-color: white;
+    padding: 6px;
+    margin-right: 6px;
+}
+
+.image{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
